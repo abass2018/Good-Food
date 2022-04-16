@@ -1,0 +1,320 @@
+
+@font-face {
+    font-family: "jannat";
+    src: url("../fonts/a-jannat-lt.otf");
+}
+
+@font-face {
+    font-family: "jannatbold";
+    src: url("../fonts/a-jannat-lt-bold.otf");
+}
+
+@font-face {
+    font-family: "Ebhaar";
+    src: url("../fonts/Ebhaar.otf");
+}
+
+@font-face {
+    font-family: "Hacen";
+    src: url("../fonts/Hacen Algeria Bd.ttf");
+}
+
+@font-face {
+    font-family: "Hacenbold";
+    src: url("../fonts/Hacen Algeria Hd.ttf");
+}
+
+@font-face {
+    font-family: "STC";
+    src: url("../fonts/STC-Bold.ttf");
+}
+
+@font-face {
+    font-family: "kan";
+    src: url("../fonts/KanYaMaKan-Regular.otf");
+}
+
+@font-face {
+    font-family: "STV";
+    src: url("../fonts/STV-Bold.ttf");
+}
+
+
+
+
+
+@font-face {
+  font-family: "lightfont";
+  src: url("../fonts/Somar-Light.otf") ;
+}
+@font-face {
+  font-family: "boldfont";
+  src: url("../fonts/Somar-Bold.otf") format("opentype");
+}
+body {
+     font-family: "Tajawal", "Work Sans", sans-serif !important;
+  font-family: "jannatbold" 
+}
+
+
+
+.heading h2:before {
+    content: ".";
+    color: #0faea1;
+    font-size: 35px;
+    display: inline-block;
+}
+
+.shortcode-2.about-home p {
+
+    text-align: right;
+}
+
+
+.dark .shortcode-2.about-home .feature, .dark .shortcode-2.about-home .cta-form .form {
+  
+        text-align: center;
+}
+.service-8 .col-content{
+        text-align: right;
+}
+.projects-filter ul {
+
+    direction: rtl;
+}
+.testimonial .testimonial-content p {
+ 
+    text-align: right;
+}
+
+
+.widgets-links{
+        text-align: right;
+}
+
+
+
+
+
+.header-8 .outer-2 {
+    background-color: #0faea1;
+}
+
+
+
+.header-8 .affix{
+       background-color: #0faea1 important;
+}
+
+.bg-theme {
+    background-color: #0faea1!important;
+}
+
+
+.service-8 .col-content {
+    background-color: #0faea1;
+    margin-top: 100
+}
+
+.bg-overlay-theme:before {
+    background-color: #0faea1;
+}
+
+
+.btn-primary {
+    background-color: #0faea1;
+    color: #fff;
+    border: 2px solid #0faea1;
+}
+
+
+.color-theme {
+    color: #0faea1 !important;
+}
+
+
+
+
+.service-2 .nav-tabs li.active a, .service-2 .nav-tabs li.active a:hover, .service-2 .nav-tabs li.active a:focus, .service-2 .nav-tabs li a:hover, .service-2 .nav-tabs li a:focus {
+    background-color: transparent;
+    border: none;
+    color: #0faea1 !important;
+    background-color: transparent;
+}
+
+
+.projects-filter ul li a:hover, .projects-filter ul li a.active-filter {
+    color: #0faea1;
+    border-bottom: 2px solid #0faea1;
+}
+
+
+.widgets-contact .widget-contact-icon:after {
+
+    background-color: #0faea1;
+
+}
+
+
+.testimonial-img i {
+
+    background-color: #0faea1;
+}
+
+
+.header-8 .top-bar-contact .widget-contact-icon:after {
+ 
+    background-color: #0faea1;
+}
+
+
+.cta-devider:before {
+
+    background-color: #2e2e2e;
+    
+}
+
+.heading-bg:before {
+ 
+    border: 2px solid #0faea1;
+}
+
+
+.copyrights a {
+    color: #0faea1;
+}
+
+
+
+.widget-social p{
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #f9f9f9;
+    text-align: right;
+}
+.widget-social-icon a:hover {
+    background-color: #0faea1;
+    color: #222222;
+}
+
+
+
+
+.testimonial .testimonial-meta {
+
+    text-align: right;
+}
+
+
+
+.widgets-links .widget-about .widget-about-info {
+    padding-left:0px;
+}
+
+.widgets-links ul li a:hover{
+        color: #0faea1 !important;
+}
+
+
+
+.hero-slider .owl-controls .owl-nav div:hover {
+    background-color: #0faea1 !important;
+ 
+}
+
+
+
+.module-search .search-box .search-form .btn {
+    background-color: #0faea1;
+    border: 2px solid #0faea1;
+    color: #fff;
+}
+
+
+
+.shortcode-2.about-home .cta-form .form .form-control {
+   
+    text-align: right;
+}
+
+
+input.form-control {
+    text-align: right;
+}
+
+
+.member .member-bg:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 76px;
+    background-color: #0faea1a6;
+    height: 76px;
+    top: -76px;
+}
+
+
+
+
+
+.widgets-contact .widget-contact-icon {
+    margin-right: 27px; 
+    margin-left: 0px; 
+}
+
+
+
+
+
+
+.widgets-contact .widget-contact-icon:before {
+content: "";
+    width: 2px;
+    height: 22px;
+    margin-right: 10px;
+    background-color: #0faea1;
+    display: inline-block;
+    margin-left: 11px;
+}
+
+
+
+
+.header-8 .top-bar-contact .widget-contact-icon:before {
+    content: "";
+    width: 2px;
+    height: 22px;
+    margin-right: 20px;
+    background-color: #0faea1;
+    display: inline-block;
+}
+.header-8 .widget-contact-info {
+    margin-top: 16px;
+    padding-right: 85px;
+}
+
+.header-8 .top-bar-contact li.widget {
+    width: 280px;
+    height: 79px;
+    border: 1px
+ solid rgba(49, 49, 49, 0.08);
+    line-height: 79px;
+    text-align: right;
+}
+
+
+.service-2 .nav-tabs {
+    border-bottom: none;
+
+    display: flex;
+}
+
+
+
+
+.member .member-img img {
+
+    width: 100%;
+}

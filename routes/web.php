@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\OrderController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,7 +16,7 @@ use App\Http\Controllers\ContactController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
 Route::get('/index', function () {
@@ -22,3 +24,5 @@ Route::get('/index', function () {
 });
 
 Route::post('insert-contact',[ContactController::class,'insert']);
+
+//Route::resource('order', OrderController::class);
