@@ -79,7 +79,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         
                         	<!-- li end -->
 						<li class="has-dropdown">
-							<a href="#"  class="dropdown-toggle">تواصل معنا  </a>
+							<a href="#contact"  class="dropdown-toggle">تواصل معنا  </a>
 						
 						</li>
                         <li class="has-dropdown">

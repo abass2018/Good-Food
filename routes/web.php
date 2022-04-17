@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\OrderController;
+use App\Http\Controllers\IndexController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,5 +25,7 @@ Route::get('/index', function () {
 });
 
 Route::post('insert-contact',[ContactController::class,'insert']);
-
+Route::get('index-contact',[ContactController::class,'index']);
 //Route::resource('order', OrderController::class);
+Route::get('admin-index',[IndexController::class,'index']);
+Route::get('delete-contact/{id}',[ContactController::class,'destroy']);

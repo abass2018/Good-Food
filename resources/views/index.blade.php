@@ -859,6 +859,50 @@
 </section>
 <!-- #cta-3 end -->
 
+<section id="contact" style="text-align: right ;  ">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6" style="margin-left: 20%">
+				
+			
+		
+				<div class="cta-form">
+					<div class="cta cta-2 bg-theme">
+						<div class="cta-icon">
+							<i class="lnr lnr-apartment" ></i>
+						</div>
+						<div class="cta-devider">
+						</div>
+						<div class="cta-desc">
+							<p>جود فود</p>
+							<h5> اتصل بنا</h5>
+						</div>
+					</div>
+					<!-- .cta-2 end -->
+					<div class="form">
+						
+						<form  action="{{url('insert-contact')}}" method="post">
+							@csrf
+							<input type="text" class="form-control" name="name" id="name" placeholder="ادخل الاسم" required/>
+							<input type="email" class="form-control" name="email" id="email" placeholder="ادخل الايميل" required/>
+							<input type="text" class="form-control" name="subject" id="telephone" placeholder="ادخل  الموضوع" required/>
+							<textarea class="form-control" name="message"  id="quote" placeholder=" الرسالة" rows="2" required></textarea>
+							<button type="submit" class="btn btn-primary btn-black "> ارسال</button>
+							<!--Alert Message-->
+							<div id="quote-result" class="mt-xs">
+							</div>
+						</form>
+					</div>
+				</div>
+				<!-- .cta-form -->
+			
+			<!-- .col-md-4 end -->
+		</div>
+		<!-- .row end -->
+	</div>
+	<!-- .container end -->
+</section>
+
 <!-- Testimonials #1
 ============================================= -->
 <section id="testimonials" class="testimonial testimonial-1 bg-gray">
@@ -1081,6 +1125,10 @@
 	<!-- .container end -->
 </section>
 <!-- #clients end-->
+
+<!-- Shortcode #2 
+============================================= -->
+
 <footer id="footer" class="footer-1">
 	<!-- Contact Bar
 	============================================= -->
